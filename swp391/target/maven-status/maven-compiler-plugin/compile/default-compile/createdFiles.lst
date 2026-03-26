@@ -40,6 +40,7 @@ com\example\swp391\projects\entity\Project$ProjectBuilder.class
 com\example\swp391\configs\CorsConfig.class
 com\example\swp391\projects\enums\ProjectRole.class
 com\example\swp391\tasks\dto\request\UpdateTaskRequest.class
+com\example\swp391\github\dto\response\CommitDetail.class
 com\example\swp391\jira\entity\JiraUserMapping$JiraUserMappingBuilder.class
 com\example\swp391\webhook\dto\GithubPushEvent$Commit.class
 com\example\swp391\jira\controller\JiraIssueController.class
@@ -53,6 +54,7 @@ com\example\swp391\configs\security\CustomUserDetails.class
 com\example\swp391\projects\service\impl\ProjectMemberServiceImpl$1.class
 com\example\swp391\accounts\entity\Role.class
 com\example\swp391\configs\DataInitializer.class
+com\example\swp391\github\dto\response\CommitDetail$CommitDetailBuilder.class
 com\example\swp391\tasks\dto\request\CreateTaskRequest$CreateTaskRequestBuilder.class
 com\example\swp391\accounts\service\IAccountService.class
 com\example\swp391\tasks\dto\response\UserTaskStats.class
@@ -64,6 +66,7 @@ com\example\swp391\accounts\dto\response\AccountResponse.class
 com\example\swp391\tasks\service\ITaskService.class
 com\example\swp391\accounts\dto\response\AccountLinkStatusResponse.class
 com\example\swp391\jira\dto\response\JiraIssueResponse$JiraIssueResponseBuilder.class
+com\example\swp391\projects\service\impl\ProjectReportExportServiceImpl.class
 com\example\swp391\tasks\repository\TaskRepository.class
 com\example\swp391\exceptions\BadRequestException.class
 com\example\swp391\github\entity\GithubUserMapping$GithubUserMappingBuilder.class
@@ -97,15 +100,20 @@ com\example\swp391\projects\controller\ProjectMemberController.class
 com\example\swp391\configs\security\SecurityUtil.class
 com\example\swp391\exceptions\GenericErrorResponse$GenericErrorResponseBuilder.class
 com\example\swp391\accounts\dto\response\AccountLinkStatusResponse$AccountLinkStatusResponseBuilder.class
+com\example\swp391\projects\service\ProjectReportExportService.class
+com\example\swp391\projects\dto\response\ProjectMemberRoleResponse$ProjectMemberRoleResponseBuilder.class
 com\example\swp391\github\dto\response\GithubUserResponse.class
 com\example\swp391\webhook\dto\GithubPushEvent$Repository.class
 com\example\swp391\projects\service\IProjectService.class
+com\example\swp391\projects\dto\response\ProjectMemberRoleResponse.class
+com\example\swp391\projects\service\impl\ProjectReportExportServiceImpl$ReportRow.class
 com\example\swp391\Swp391Application.class
 com\example\swp391\tasks\dto\request\CreateTaskRequest.class
 com\example\swp391\webhook\dto\GithubPushEvent.class
 com\example\swp391\accounts\dto\request\LoginRequest.class
 com\example\swp391\github\dto\response\CommitStats$CommitStatsBuilder.class
 com\example\swp391\accounts\service\impl\AuthServiceImpl.class
+com\example\swp391\projects\service\impl\ProjectReportExportServiceImpl$MemberReportContext.class
 com\example\swp391\tasks\service\impl\TaskServiceImpl.class
 com\example\swp391\accounts\dto\request\ChangePasswordRequest.class
 com\example\swp391\github\service\impl\GithubOAuthService.class
@@ -114,6 +122,7 @@ com\example\swp391\configs\OpenApiConfig.class
 com\example\swp391\tasks\entity\Task$TaskBuilder.class
 com\example\swp391\jira\dto\response\JiraProjectResponse.class
 com\example\swp391\jira\service\impl\JiraServiceImpl.class
+com\example\swp391\configs\CacheControlFilter.class
 com\example\swp391\github\dto\response\CommitStats.class
 com\example\swp391\jira\service\impl\JiraUserLinkServiceImpl.class
 com\example\swp391\jira\controller\JiraLinkController.class
@@ -127,7 +136,9 @@ com\example\swp391\webhook\service\IWebhookService.class
 com\example\swp391\accounts\enums\LoginType.class
 com\example\swp391\tasks\dto\response\TaskResponse.class
 com\example\swp391\github\enums\GithubLinkStatus.class
+com\example\swp391\projects\service\ProjectReportExportService$ExportedProjectReport.class
 com\example\swp391\accounts\dto\request\CreateLecturerRequest.class
+com\example\swp391\projects\service\impl\ProjectReportExportServiceImpl$ReportSummary.class
 com\example\swp391\projects\dto\request\CreateProjectRequest.class
 com\example\swp391\github\dto\response\CommitSummary.class
 com\example\swp391\jira\enums\JiraLinkStatus.class
