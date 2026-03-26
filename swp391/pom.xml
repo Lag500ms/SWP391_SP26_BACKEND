@@ -127,6 +127,13 @@
 					</annotationProcessorPaths>
 				</configuration>
 			</plugin>
+			<!-- Spring Boot plugin để tạo executable JAR -->
+			<plugin>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-maven-plugin</artifactId>
+			</plugin>
 		</plugins>
+
+
 	</build>
 </project>
